@@ -1,0 +1,143 @@
+/* style.css */
+
+/* Gaya Umum */
+body {
+    background-color: #f0f2f5;
+    font-family: 'poppins';
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+/* Card */
+.card {
+    font-family: poppins;
+    margin-top: 150px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 25px;
+    color:#131313;
+}
+
+/* Form */
+form label {
+    font-weight: 600;
+}
+
+form .form-control {
+    border-radius: 10px;
+}
+
+/* Tombol */
+.btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #375a7f;
+    border-color: #375a7f;
+}
+
+.btn-success {
+    background-color: #1cc88a;
+    border-color: #1cc88a;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #17a673;
+    border-color: #17a673;
+}
+
+.btn-warning {
+    background-color: #f6c23e;
+    border-color: #f6c23e;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-warning:hover {
+    background-color: #dda20a;
+    border-color: #dda20a;
+}
+
+.btn-danger {
+    background-color: #e74a3b;
+    border-color: #e74a3b;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+/* Tabel */
+.table thead th {
+    background-color: #4e73df;
+    color: white;
+    border: none;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fc;
+}
+
+.table tbody tr:hover {
+    background-color: #e2e6ea;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #6c757d;
+}
+
+.cards1{ 
+    margin:100px;
+    position: flex;
+    padding:35px;
+    border: none solid;
+    border-radius: 15px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.432);
+
+
+}
+
+/* style.css */
+
+/* Bayangan pada Dropdown Menu */
+.navbar .dropdown-menu {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* style.css */
+
+/* Animasi Dropdown */
+.navbar .dropdown-menu {
+    transition: all 0.3s ease;
+}
+
+/* style.css */
+
+/* Warna saat Hover pada Dropdown Item */
+.navbar .dropdown-menu a.dropdown-item:hover {
+    background-color: #f1f1f1;
+    color: #000;
+}
