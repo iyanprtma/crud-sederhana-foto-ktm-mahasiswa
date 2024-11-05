@@ -119,7 +119,7 @@ a {
                 <h1>Rey Developer<br></h1>
                 <p>Hanya hobi kecil, bukan bisa tapi terbiasa. <br> Sebuah ketikan menjadikan hal yang berguna <br> adalah perinsip saya.</p>
                 <button><a href="../index.php">HOME</button></a>
-                <button><a href="https://wa.me:/+6282162918130">CONTACT ME</button></a>
+                <button><a href="https://wa.me:/+628">CONTACT ME</button></a>
             </div>
             <div class="hero-image">
                 <img src="../img/pp.jpg" alt="John Moore"> </div>
